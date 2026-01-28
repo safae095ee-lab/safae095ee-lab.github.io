@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="style.css">
     <style>
         h1 {
-            background-color: #9f9696;
-            color: rgb(57, 17, 17);
+            background-color: #360a0a;
+            color: rgb(143, 137, 173);
             padding: 20px;
             border-radius: 20px;
             text-shadow: 3px 3px 6px rgb(235, 235, 235);
@@ -15,7 +15,8 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #8c7a7f; 
+            background-color: #0c1022; 
+            color: aliceblue;
         }
         .photo {
             width: 80px;       
@@ -39,6 +40,31 @@
             background-color: #1e293b;
             color: white;
         }
+        .qrcode{
+            width: 80px;       
+            height: 80px;
+            box-shadow: 0 0 10px gray;
+
+        }
+         .images-droite {
+            position: fixed;     
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .images-droite img {
+            width: 120px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .images-droite img:hover {
+            transform: scale(1.05);
+        }
 
     </style>
 </head>
@@ -47,10 +73,22 @@
 
 <header>
     <img src="C:\Users\admin\Documents\SAFAE\Photo.jpeg" alt="Photo" class="photo">
+    
     <h1>L'INFORMATIQUE</h1>
 </header>
-<img src="qrcode.png" alt="QR Github" class="qrcode">
+<img src="C:\Users\admin\Documents\QR code GITHUB.PNG" alt="QR Github" class="qrcode">
+<a href="tp.html">
+            <img src="C:\Users\admin\Documents\image1.jpg" alt="Image 1">
+</a>
+<a href="tp.html">
+            <img src="C:\Users\admin\Documents\image2.jpg" alt="Image 2">
+</a>
+<a href="tp.html">
+            <img src="C:\Users\admin\Documents\image3.jpg" alt="Image 3">
+</a>
+
 <nav>
+    <p><strong>MENU:</strong></p>
     <ul>
         <li><a href="#definition">Définition</a></li>
         <li><a href="#domaines">Domaines</a></li>
@@ -64,7 +102,7 @@
 <section id="definition">
     <article>
         <h2>Définition</h2>
-        <p style="color:#334155;">L’informatique est la science du traitement automatique de l’information.C'est un domaine d'activité scientifique, 
+        <p style="color:#efefef;"><strong>L’informatique</strong> est la science du traitement automatique de l’information.C'est un domaine d'activité scientifique, 
             technique et industriel concernant le traitement automatique de l'information numérique par l'exécution de programmes informatiques hébergés 
             par des dispositifs électriques-électroniques : systèmes embarqués, ordinateurs, robots et automates.</p>
     </article>
@@ -72,12 +110,18 @@
 <section id="domaines">
     <article>
         <h2>Domaines de l’informatique</h2>
+        <p>Les domaines de l’informatique se déclinent en plusieurs axes essentiels, chacun jouant un rôle clé dans le monde numérique :</p>
         <ul>
-            <li>Programmation</li>
-            <li>Réseaux</li>
-            <li>Cybersécurité</li>
-            <li>Intelligence artificielle</li>
+            <li><b>La programmation :</b>elle permet de créer des logiciels, des applications et des sites web grâce à des langages informatiques,
+                 en traduisant des idées en instructions compréhensibles par la machine.</li>
+            <li><b>Réseaux</b>ils assurent la communication et l’échange de données entre ordinateurs et systèmes connectés, facilitant le partage
+                 des ressources et l’accès à Internet.</li>
+            <li><b>Cybersécurité</b>elle a pour objectif de protéger les données, les systèmes et les réseaux contre les menaces, les attaques 
+                et les utilisations malveillantes.</li>
+            <li><b>Intelligence artificielle</b>elle vise à développer des machines capables d’apprendre, d’analyser et de prendre des décisions,
+                 en s’inspirant du fonctionnement de l’intelligence humaine.</li>
         </ul>
+        <p>Ces domaines se complètent et contribuent ensemble à l’évolution rapide des technologies informatiques</p>
     </article>
 </section>
 <section id="materiel">
@@ -92,9 +136,17 @@
 <section id="logiciel">
     <article>
         <h2>Logiciels</h2>
-        <p>Les logiciels permettent d’exploiter le matériel : systèmes, applications, outils.</p>
+        <p>Les logiciels permettent d’exploiter pleinement le matériel informatique en servant d’interface entre l’utilisateur 
+            et les composants physiques de l’ordinateur. Les **logiciels systèmes**, comme les systèmes d’exploitation (Windows, 
+            Linux, macOS), gèrent les ressources matérielles : processeur, mémoire, stockage et périphériques, afin d’assurer le 
+            bon fonctionnement global de la machine. Les **logiciels applicatifs** répondent aux besoins des utilisateurs en leur
+            permettant d’effectuer des tâches précises telles que le traitement de texte, le calcul, la communication ou la création
+            multimédia. Enfin, les **outils de développement** offrent aux programmeurs les moyens de concevoir, tester et maintenir
+            de nouveaux logiciels ; ils incluent les langages de programmation, les environnements de développement et les outils de 
+            débogage. Ensemble, ces catégories de logiciels rendent le matériel utilisable, efficace et adaptable à de nombreux usages.
+        </p>
     </article>
-</section>
+</section>  
 <section id="tableau">
     <h2>Tableau comparatif</h2>
     <table>
@@ -123,6 +175,22 @@
             <td>Communication</td>
         </tr>
     </table>
+<section>
+    <h3>Sites Web Informatique & Actualités Tech</h3>
+    <ul>
+        <li><a href="https://www.01net.com/" target="_blank">01net</a> – Actualités et tests produits high-tech.</li>
+        <li><a href="https://www.tomshardware.com/" target="_blank">Tom's Hardware</a> – Informations sur matériel informatique et actualités.</li>
+        <li><a href="https://www.tomsguide.com/" target="_blank">Tom's Guide</a> – Actualités tech, tests et guides d’achat. </li>
+        <li><a href="https://www.bleepingcomputer.com/" target="_blank">Bleeping Computer</a> – Actualités tech & aide informatique (cybersécurité, logiciels, etc.). </li>
+        <li><a href="https://techmeme.com/" target="_blank">Techmeme</a> – Agrégateur de nouvelles tech en temps réel. </li>
+        <li><a href="https://www.infomagazine.ma/actualites-informatique/" target="_blank">InfoMagazine – Actualités Informatique</a> – Articles tech et actualités. </li>
+        <li><a href="https://ticnews.fr/" target="_blank">TICNews</a> – Informations sur l’actualité IT et événements tech. </li>
+        <li><a href="https://www.theverge.com/" target="_blank">The Verge</a> – Actualités générales tech et culture web.</li>
+        <li><a href="https://techcrunch.com/" target="_blank">TechCrunch</a> – Actualités startups et technologie.</li>
+        <li><a href="https://www.cnet.com/" target="_blank">CNET</a> – Tests, actualités et guides produits tech.</li>
+        <li><a href="https://arstechnica.com/" target="_blank">Ars Technica</a> – Analyses et actualités IT plus techniques.</li>
+    </ul>
+</section>
 </section>
 <a href="#top" class="btn">⬆ Haut de page</a>
 <a href="mailto:safaeelhaji790@email.com" class="btn">📧 Me contacter</a>
