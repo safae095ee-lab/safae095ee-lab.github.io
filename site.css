@@ -1,0 +1,137 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>L'informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            background-color: #9f9696;
+            color: rgb(57, 17, 17);
+            padding: 20px;
+            border-radius: 20px;
+            text-shadow: 3px 3px 6px rgb(235, 235, 235);
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #8c7a7f; 
+        }
+        .photo {
+            width: 80px;       
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px gray;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px solid #1e293b;
+        }
+
+        th, td {
+            border: 2px solid #1e293b;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1e293b;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body id="top">
+
+<header>
+    <img src="C:\Users\admin\Documents\SAFAE\Photo.jpeg" alt="Photo" class="photo">
+    <h1>L'INFORMATIQUE</h1>
+</header>
+<img src="qrcode.png" alt="QR Github" class="qrcode">
+<nav>
+    <ul>
+        <li><a href="#definition">Définition</a></li>
+        <li><a href="#domaines">Domaines</a></li>
+        <li><a href="#materiel">Matériel</a></li>
+        <li><a href="#logiciel">Logiciel</a></li>
+        <li><a href="#tableau">Tableau</a></li>
+    </ul>
+</nav>
+
+<main>
+<section id="definition">
+    <article>
+        <h2>Définition</h2>
+        <p style="color:#334155;">L’informatique est la science du traitement automatique de l’information.C'est un domaine d'activité scientifique, 
+            technique et industriel concernant le traitement automatique de l'information numérique par l'exécution de programmes informatiques hébergés 
+            par des dispositifs électriques-électroniques : systèmes embarqués, ordinateurs, robots et automates.</p>
+    </article>
+</section>
+<section id="domaines">
+    <article>
+        <h2>Domaines de l’informatique</h2>
+        <ul>
+            <li>Programmation</li>
+            <li>Réseaux</li>
+            <li>Cybersécurité</li>
+            <li>Intelligence artificielle</li>
+        </ul>
+    </article>
+</section>
+<section id="materiel">
+    <article>
+        <h2>Matériel informatique</h2>
+        <p>Le matériel comprend l’ordinateur, le clavier, la souris et les composants internes.</p>
+        <p>Pour en savoir plus sur le matériel informatique 👉 
+           <a href="https://www.jpg.fr/materiel-informatique_C05.html">https://www.jpg.fr/materiel-informatique_C05.html</a>
+        </p>
+    </article>
+</section>
+<section id="logiciel">
+    <article>
+        <h2>Logiciels</h2>
+        <p>Les logiciels permettent d’exploiter le matériel : systèmes, applications, outils.</p>
+    </article>
+</section>
+<section id="tableau">
+    <h2>Tableau comparatif</h2>
+    <table>
+        <tr>
+            <th>Domaine</th>
+            <th>Niveau</th>
+            <th>Langage</th>
+            <th>Usage</th>
+        </tr>
+        <tr>
+            <td>Web</td>
+            <td>Débutant</td>
+            <td>HTML</td>
+            <td>Sites</td>
+        </tr>
+        <tr>
+            <td>Programmation</td>
+            <td>Intermédiaire</td>
+            <td>Python</td>
+            <td>Applications</td>
+        </tr>
+        <tr>
+            <td>Réseaux</td>
+            <td>Avancé</td>
+            <td>TCP/IP</td>
+            <td>Communication</td>
+        </tr>
+    </table>
+</section>
+<a href="#top" class="btn">⬆ Haut de page</a>
+<a href="mailto:safaeelhaji790@email.com" class="btn">📧 Me contacter</a>
+
+</main>
+
+<footer>
+    <p id="copyright">© Safae El-haji - 2026</p>
+</footer>
+
+</body>
+</html>
